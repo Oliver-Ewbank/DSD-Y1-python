@@ -1,0 +1,13 @@
+print("Hello world")
+
+test = input("give me data")
+
+
+num1 = 1
+int(num1)
+num2 = 2.8
+ans = num1* num2
+
+print(ans)
+
+bool(ans) == input(True or False)
