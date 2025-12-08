@@ -1,0 +1,7 @@
+days = input("how long was the cr hired for?")
+start_milage = input("what was the start mileage?")
+end_milage = input("what was the end mileage?")
+driven_miles = int(end_milage) - int(start_milage)
+day_cost= 20 *int(days)
+total_cost = day_cost + (driven_miles * 0.05)
+print("The total cost of the car rental is: £" + str(total_cost))
